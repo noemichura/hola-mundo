@@ -16,7 +16,7 @@
         <title>MVC Persona</title>
     </head>
     <body>
-        <h1>Registro de vacunas</h1>
+        <h1>REGISTRO DE VACUNAS</h1>
         <h2>Gestionar las vacunas suministradas a estudiantes de primaria</h2>
         <a href="MainServlet?op=n        session.setAttribute("listaper", la);
 uevo">NUEVO</a>

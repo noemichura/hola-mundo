@@ -10,7 +10,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Registro de personas</h1>
+        <h1>REGISTRO DE PERSONA</h1>
         <form action="MainServlet" method="post">
             <table>
                 <tr>

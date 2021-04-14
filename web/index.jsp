@@ -4,7 +4,6 @@
 <%
     if (session.getAttribute("listaper") == null) {
         ArrayList<persona> la = new ArrayList<persona>();
-        session.setAttribute("listaper", la);
     }
     ArrayList<persona> lista = (ArrayList<persona>) session.getAttribute("listaper");
 %>
@@ -19,7 +18,8 @@
     <body>
         <h1>Registro de vacunas</h1>
         <h2>Gestionar las vacunas suministradas a estudiantes de primaria</h2>
-        <a href="MainServlet?op=nuevo">NUEVO</a>
+        <a href="MainServlet?op=n        session.setAttribute("listaper", la);
+uevo">NUEVO</a>
         <br><br>
         <table border ="3">
             <tr>
